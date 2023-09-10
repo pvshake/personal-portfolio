@@ -15,7 +15,7 @@ const Computers: FC = () => {
       <pointLight intensity={3.5} />
       <primitive
         object={computer.scene}
-        scale={mobile ? 0.7 : 0.75}
+        scale={mobile ? 0.6 : 0.75}
         position={mobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
         rotation={[-0.01, -0.2, -0.1]}
       />

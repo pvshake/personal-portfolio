@@ -3,18 +3,6 @@ import {
   backend,
   creator,
   web,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
   meta,
   starbucks,
   tesla,
@@ -22,7 +10,6 @@ import {
   carrent,
   jobit,
   tripguide,
-  threejs,
 } from "../assets";
 
 export const navLinks = [
@@ -38,7 +25,7 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
-];
+] as Models.NavLink[];
 
 const services = [
   {
@@ -57,62 +44,62 @@ const services = [
     title: "Content Creator",
     icon: creator,
   },
-];
+] as Models.Service[];
 
 const technologies = [
   {
     name: "HTML 5",
-    icon: html,
+    icon: "./html.png",
   },
   {
     name: "CSS 3",
-    icon: css,
+    icon: "./css.png",
   },
   {
     name: "JavaScript",
-    icon: javascript,
+    icon: "./javascript.png",
   },
   {
     name: "TypeScript",
-    icon: typescript,
+    icon: "./typescript.png",
   },
   {
     name: "React JS",
-    icon: reactjs,
+    icon: "./reactjs.png",
   },
   {
     name: "Redux Toolkit",
-    icon: redux,
+    icon: "./redux.png",
   },
   {
     name: "Tailwind CSS",
-    icon: tailwind,
+    icon: "./tailwind.png",
   },
   {
     name: "Node JS",
-    icon: nodejs,
+    icon: "./nodejs.png",
   },
   {
     name: "MongoDB",
-    icon: mongodb,
+    icon: "./mongodb.png",
   },
   {
     name: "Three JS",
-    icon: threejs,
+    icon: "./threejs.svg",
   },
   {
     name: "git",
-    icon: git,
+    icon: "./git.png",
   },
   {
     name: "figma",
-    icon: figma,
+    icon: "./figma.png",
   },
   {
     name: "docker",
-    icon: docker,
+    icon: "./docker.png",
   },
-];
+] as Models.Technology[];
 
 const experiences = [
   {
@@ -167,7 +154,7 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-];
+] as Models.Experience[];
 
 const testimonials = [
   {
@@ -194,7 +181,7 @@ const testimonials = [
     company: "456 Enterprises",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
-];
+] as Models.Testimonial[];
 
 const projects = [
   {
@@ -260,6 +247,6 @@ const projects = [
     image: tripguide,
     source_code_link: "https://github.com/",
   },
-];
+] as Models.Project[];
 
 export { services, technologies, experiences, testimonials, projects };

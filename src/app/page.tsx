@@ -2,7 +2,6 @@
 
 import React from "react";
 import {
-  About,
   Contact,
   Experience,
   Feedbacks,
@@ -11,6 +10,7 @@ import {
   Tech,
   Works,
   StarsCanvas,
+  About,
 } from "../components";
 
 export default function Home() {
