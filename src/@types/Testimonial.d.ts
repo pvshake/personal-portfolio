@@ -5,5 +5,6 @@ namespace Models {
     designation: string;
     company: string;
     image: string;
+    index: any;
   }
 }

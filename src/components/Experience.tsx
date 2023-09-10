@@ -9,7 +9,6 @@ import {
 } from "react-vertical-timeline-component";
 import { textVariant } from "../utils/motion";
 import { SectionWrapper } from "@/hoc";
-import { div } from "three/examples/jsm/nodes/Nodes.js";
 import Image from "next/image";
 
 const ExperienceCard: FC<{ experience: Models.Experience }> = ({
