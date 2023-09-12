@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { styles } from "@/styles";
 import { SectionWrapper } from "@/hoc";
 import { fadeIn, textVariant } from "@/utils/motion";
-import { testimonials } from "@/constants";
+// import { testimonials } from "@/constants";
 
 interface FeedbackCardProps {
   testimonial: Models.Testimonial;
@@ -56,14 +56,14 @@ const Feedbacks: FC = () => {
         </motion.div>
       </div>
       <div className={`${styles.paddingX} -mt-20 pb-14 flex flex-wrap gap-7`}>
-        {testimonials.map((testimonial, i) => (
+        {/* {testimonials.map((testimonial, i) => (
           <>
             <FeedbackCard key={i} testimonial={testimonial} />
           </>
-        ))}
+        ))} */}
       </div>
     </div>
   );
 };
 
-export default SectionWrapper(Feedbacks, "");
+export default SectionWrapper(Feedbacks, "feedbacks");

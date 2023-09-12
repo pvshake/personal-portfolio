@@ -28,16 +28,16 @@ export default function Navbar() {
               className="w-9 h-9 object-contain"
             />
             <p className="text-white text-[18px] font-bold cursor-pointer flex">
-              Pedro Vitor &nbsp;<span className="sm:block hidden">| Dev</span>
+              Pedro Vitor&nbsp;<span className="md:block hidden">| Dev</span>
             </p>
           </Link>
-          <ul className="list-none hidden sm:flex flex-row gap-10">
+          <ul className="list-none hidden sm:flex flex-row gap-8">
             {navLinks.map((link) => (
               <li
                 key={link.id}
                 className={`${
                   sectionActive === link.title ? "text-white" : "text-secondary"
-                } hover:text-white text-[18px] font-medium cursor-pointer`}
+                } hover:text-white text-[17px] font-medium cursor-pointer`}
                 onClick={() => {
                   setSectionActive(link.title);
                 }}

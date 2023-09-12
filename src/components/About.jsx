@@ -40,25 +40,62 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <p className={styles.sectionSubText}>Introdução</p>
+        <h2 className={styles.sectionHeadText}>Sobre mim.</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        🔭 Sou um desenvolvedor de software com experiência em TypeScript e
+        JavaScript, React, React Native e Next.js, além de expertise em muitos
+        outros frameworks. Aprendo rápido e colaboro de perto com os clientes
+        para criar soluções eficientes, escaláveis e amigáveis ao usuário que
+        resolvam problemas do mundo real.
+        <br />
+        <br />
+        📖 Atualmente, estou cursando Sistemas de Informação na Universidade
+        Federal de Goiás (UFG). Essa graduação tem proporcionado uma base sólida
+        de conhecimentos teóricos e práticos, preparando-me para enfrentar os
+        desafios do campo da tecnologia da informação. Estou aproveitando as
+        oportunidades de aprendizado oferecidas pelo curso para me aprofundar em
+        áreas como desenvolvimento de software, gerenciamento de banco de dados,
+        engenharia de software e noções de empreendedorismo digital, regras de
+        negócio, governança e mais.
+        <br />
+        <br />
+        🤝🏽 Me considero uma pessoa com boas habilidades interpessoais,
+        incluindo comunicação efetiva, trabalho em equipe e fácil de trabalhar
+        junto.
+        <br />
+        <br />
+        💡 Sou muito curioso e tenho grande interesse em aprender tecnologias e
+        frameworks Mobile, especialmente aqueles relacionados ao ambiente Apple.
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="mt-20 flex flex-wrap gap-20 justify-center">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
+      </div>
+
+      <div className="mt-16 w-full flex justify-center items-center z-20">
+        <a href="#work">
+          <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
+            <motion.div
+              animate={{
+                y: [0, 24, 0],
+              }}
+              transition={{
+                duration: 1.5,
+                repeat: Infinity,
+                repeatType: "loop",
+              }}
+              className="w-3 h-3 rounded-full bg-secondary mb-1"
+            />
+          </div>
+        </a>
       </div>
     </>
   );

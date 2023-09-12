@@ -17,14 +17,12 @@ const Hero = () => {
         <div>
           <h1 className="font-black text-white lg:text-[80px] md:text-[60px] sm:text-[50px] xs:text-40px] text-[40px] lg:leading-[98px] mt-2">
             {/* eslint-disable-next-line react/no-unescaped-entities */}
-            Hi, I'm <span className="text-[#915eff]">Pedro Vitor</span>
+            Olá, sou <span className="text-[#915eff]">Pedro Vitor</span>
           </h1>
           <p className="font-medium lg:text-[30px] sm:text-[20px] xs:text-[20px] text-[16px] lg:leading-[40px] mt-2 text-white-100">
-            I am a front-end developer and I love creating beautiful
-            <br className="sm:block hidden" /> and fast web applications. I love
-            the mobile as well,
-            <br className="sm:block hidden" /> specially React Native and the
-            Apple Environment.
+            Eu sou um desenvolvedor de software Front-End que ama criar
+            interfaces e aplicações para a web. Também sou apaixonado pelo mundo
+            mobile e suas tecnologias.
           </p>
         </div>
       </div>

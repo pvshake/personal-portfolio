@@ -11,9 +11,11 @@ import { textVariant } from "../utils/motion";
 import { SectionWrapper } from "@/hoc";
 import Image from "next/image";
 
-const ExperienceCard: FC<{ experience: Models.Experience }> = ({
-  experience,
-}) => {
+interface ExperienceCardProps {
+  experience: Models.Experience;
+}
+
+const ExperienceCard: FC<ExperienceCardProps> = ({ experience }) => {
   return (
     <VerticalTimelineElement
       contentStyle={{ background: "#1d1826", color: "#fff" }}
@@ -21,7 +23,7 @@ const ExperienceCard: FC<{ experience: Models.Experience }> = ({
       date={experience.date}
       iconStyle={{ background: experience.iconBg }}
       icon={
-        <div className="felx justify-center items-center w-full h-full">
+        <div className="flex justify-center items-center w-full h-full object-cover">
           <Image src={experience.icon} alt={experience.company_name} />
         </div>
       }
@@ -54,8 +56,8 @@ const Experience: FC = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>What I have done so far</p>
-        <h2 className={styles.sectionHeadText}>Work Experience.</h2>
+        <p className={styles.sectionSubText}>Meu currículo</p>
+        <h2 className={styles.sectionHeadText}>Experiências.</h2>
       </motion.div>
       <div className="mt-20 flex flex-col">
         <VerticalTimeline>

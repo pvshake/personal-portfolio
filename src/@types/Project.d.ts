@@ -5,6 +5,7 @@ namespace Models {
     description: string;
     image: any;
     source_code_link: string;
+    web_link: string;
     index: any;
   }
 

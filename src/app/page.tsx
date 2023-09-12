@@ -8,7 +8,7 @@ import {
   Hero,
   Navbar,
   Tech,
-  Works,
+  Projects,
   StarsCanvas,
   About,
 } from "../components";
@@ -23,8 +23,8 @@ export default function Home() {
       <About />
       <Experience />
       <Tech />
-      <Works />
-      <Feedbacks />
+      <Projects />
+      {/* <Feedbacks /> */}
       <div className="relative z-0">
         <Contact />
         <StarsCanvas />
