@@ -7,10 +7,6 @@ import { SectionWrapper } from "@/hoc";
 import { projects } from "@/constants";
 import { fadeIn, textVariant } from "@/utils/motion";
 import Image from "next/image";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Navigation, Pagination } from "swiper";
-import "swiper/swiper-bundle.min.css";
-import "swiper/swiper.min.css";
 
 interface ProjectCardProps {
   project: Models.Project;
@@ -94,13 +90,9 @@ const Projects: FC = () => {
         </motion.p>
       </div>
       <div className="mt-20 flex flex-wrap gap-7">
-        <Swiper spaceBetween={120} slidesPerView={3} loop autoplay>
-          {projects.map((project, i) => (
-            <SwiperSlide key={i}>
-              <ProjectCard key={i} project={project} />
-            </SwiperSlide>
-          ))}
-        </Swiper>
+        {projects.map((project, i) => (
+          <ProjectCard key={i} project={project} />
+        ))}
       </div>
     </>
   );

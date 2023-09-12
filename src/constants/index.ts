@@ -102,9 +102,13 @@ const technologies = [
     name: "git",
     icon: "./git.png",
   },
+  // {
+  //   name: "figma",
+  //   icon: "./figma.png",
+  // },
   {
-    name: "figma",
-    icon: "./figma.png",
+    name: "MongoDB",
+    icon: "./mongodb.png",
   },
 ] as Models.Technology[];
 
