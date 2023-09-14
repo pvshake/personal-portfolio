@@ -17,6 +17,8 @@ import twitter from "./twitter.png";
 import whatsapp from "./whatsapp.png";
 import omnisaude from "./company/omnisaude.png";
 import ufg from "./company/ufg.png";
+import portfolio from "./portfolio.png";
+import uploadAi from "./uploadAi.png";
 
 export {
   profile_pic,
@@ -38,4 +40,6 @@ export {
   omnisaude,
   ufg,
   flappybird,
+  portfolio,
+  uploadAi,
 };

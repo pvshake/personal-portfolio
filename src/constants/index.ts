@@ -13,6 +13,8 @@ import {
   omnisaude,
   ufg,
   flappybird,
+  portfolio,
+  uploadAi,
 } from "../assets";
 
 export const navLinks = [
@@ -173,17 +175,66 @@ const experiences = [
 
 const projects = [
   {
-    name: "ShakeFlix",
+    name: "Upload AI",
     description:
-      "Aplicação que utiliza TensorFlow JS e Machine Learning para controlar o site com gestos de mão e dos olhos. É uma aplicação com muito javascript avançado foi feito durante o curso com de javascript avançado por Erick Wendel.",
+      "Esta é uma aplicação front e back que utiliza prompts de IA (GPT) para gerar transcrições, títulos, descrições e o que quiser sobre vídeos.",
     tags: [
       {
-        name: "tensorflowjs",
+        name: "IA (GPT)",
         color: "blue-text-gradient",
       },
       {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "vite",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "chadcn/ui",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "prisma",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "fastify",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "ffmpeg",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "webassembly",
+        color: "green-text-gradient",
+      },
+    ],
+    image: uploadAi,
+    source_code_link: "https://github.com/pvshake/upload-ai",
+  },
+  {
+    name: "ShakeFlix",
+    description:
+      "Aplicação que utiliza TensorFlow JS e Machine Learning para controlar o site com gestos de mão e dos olhos. É uma aplicação com muito javascript avançado.",
+    tags: [
+      {
         name: "javascript",
         color: "green-text-gradient",
+      },
+      {
+        name: "tensorflowjs",
+        color: "blue-text-gradient",
       },
       {
         name: "machinelearning",
@@ -193,10 +244,58 @@ const projects = [
         name: "gestures",
         color: "orange-text-gradient",
       },
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
     ],
     image: shakeflix,
     source_code_link: "https://github.com/pvshake/ShakeFlix",
     web_link: "https://pvshake.github.io/ShakeFlix/pages/titles/",
+  },
+  {
+    name: "Portfolio",
+    description: "É Este site em que você está navegando 😁",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "reactjs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "threejs",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "framermotion",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "emailjs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "3D",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: portfolio,
+    source_code_link: "https://github.com/pvshake/personal-portfolio",
   },
   {
     name: "Campus Car",
