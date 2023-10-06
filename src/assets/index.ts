@@ -19,6 +19,7 @@ import omnisaude from "./company/omnisaude.png";
 import ufg from "./company/ufg.png";
 import portfolio from "./portfolio.png";
 import uploadAi from "./uploadAi.png";
+import threads from "./threads.png";
 
 export {
   profile_pic,
@@ -42,4 +43,5 @@ export {
   flappybird,
   portfolio,
   uploadAi,
+  threads,
 };

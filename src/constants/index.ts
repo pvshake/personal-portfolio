@@ -15,6 +15,7 @@ import {
   flappybird,
   portfolio,
   uploadAi,
+  threads,
 } from "../assets";
 
 export const navLinks = [
@@ -175,53 +176,46 @@ const experiences = [
 
 const projects = [
   {
-    name: "Upload AI",
+    name: "Threads Clone",
     description:
-      "Esta é uma aplicação front e back que utiliza prompts de IA (GPT) para gerar transcrições, títulos, descrições e o que quiser sobre vídeos.",
+      "Este é um clone da rede social do Instagram, Threads. Este projeto é bastante completo e fullstack.",
     tags: [
-      {
-        name: "IA (GPT)",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "reactjs",
-        color: "blue-text-gradient",
-      },
       {
         name: "typescript",
         color: "green-text-gradient",
       },
       {
-        name: "vite",
+        name: "nextjs13",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
         color: "pink-text-gradient",
       },
       {
-        name: "chadcn/ui",
+        name: "clerk",
         color: "orange-text-gradient",
+      },
+      {
+        name: "webhooks",
+        color: "blue-text-gradient",
       },
       {
         name: "tailwindcss",
         color: "green-text-gradient",
       },
       {
-        name: "prisma",
+        name: "chadcn/ui",
         color: "pink-text-gradient",
       },
       {
-        name: "fastify",
+        name: "SSRcomponents",
         color: "orange-text-gradient",
       },
-      {
-        name: "ffmpeg",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "webassembly",
-        color: "green-text-gradient",
-      },
     ],
-    image: uploadAi,
-    source_code_link: "https://github.com/pvshake/upload-ai",
+    image: threads,
+    source_code_link: "https://github.com/pvshake/threads-clone",
+    web_link: "https://threads-clone-pvshake.vercel.app/",
   },
   {
     name: "ShakeFlix",
@@ -296,6 +290,55 @@ const projects = [
     ],
     image: portfolio,
     source_code_link: "https://github.com/pvshake/personal-portfolio",
+  },
+  {
+    name: "Upload AI",
+    description:
+      "Esta é uma aplicação front e back que utiliza prompts de IA (GPT) para gerar transcrições, títulos, descrições e o que quiser sobre vídeos.",
+    tags: [
+      {
+        name: "IA (GPT)",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "vite",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "chadcn/ui",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "prisma",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "fastify",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "ffmpeg",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "webassembly",
+        color: "green-text-gradient",
+      },
+    ],
+    image: uploadAi,
+    source_code_link: "https://github.com/pvshake/upload-ai",
   },
   {
     name: "Campus Car",
