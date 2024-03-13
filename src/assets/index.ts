@@ -20,6 +20,7 @@ import ufg from "./company/ufg.png";
 import portfolio from "./portfolio.png";
 import uploadAi from "./uploadAi.png";
 import threads from "./threads.png";
+import performanceimdb from "./performanceimdb.png";
 
 export {
   profile_pic,
@@ -44,4 +45,5 @@ export {
   portfolio,
   uploadAi,
   threads,
+  performanceimdb,
 };

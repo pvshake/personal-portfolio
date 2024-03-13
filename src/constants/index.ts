@@ -16,6 +16,7 @@ import {
   portfolio,
   uploadAi,
   threads,
+  performanceimdb,
 } from "../assets";
 
 export const navLinks = [
@@ -93,10 +94,10 @@ const technologies = [
     name: "Tailwind CSS",
     icon: "./tailwind.png",
   },
-  {
-    name: "Node JS",
-    icon: "./nodejs.png",
-  },
+  // {
+  //   name: "Node JS",
+  //   icon: "./nodejs.png",
+  // },
   {
     name: "Three JS",
     icon: "./threejs.svg",
@@ -105,10 +106,10 @@ const technologies = [
     name: "git",
     icon: "./git.png",
   },
-  // {
-  //   name: "figma",
-  //   icon: "./figma.png",
-  // },
+  {
+    name: "figma",
+    icon: "./figma.png",
+  },
   {
     name: "MongoDB",
     icon: "./mongodb.png",
@@ -175,6 +176,44 @@ const experiences = [
 // ] as Models.Testimonial[];
 
 const projects = [
+  {
+    name: "Performance Web IMDB",
+    description:
+      "Aplicação web focada em performance e nos parâmetros do WebVitals.",
+    tags: [
+      {
+        name: "typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "nextjs14",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "sanity",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "webvitals",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "performance",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "chadcn/ui",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: performanceimdb,
+    source_code_link: "https://github.com/pvshake/performance-pvshake-imdb",
+    web_link: "https://performance-pvshake-imdb.vercel.app",
+  },
   {
     name: "Threads Clone",
     description:
