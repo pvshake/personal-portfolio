@@ -21,6 +21,7 @@ import portfolio from "./portfolio.png";
 import uploadAi from "./uploadAi.png";
 import threads from "./threads.png";
 import performanceimdb from "./performanceimdb.png";
+import akcitthumbnail from "./akcitthumbnail.png";
 
 export {
   profile_pic,
@@ -46,4 +47,5 @@ export {
   uploadAi,
   threads,
   performanceimdb,
+  akcitthumbnail,
 };

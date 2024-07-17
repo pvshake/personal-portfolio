@@ -17,6 +17,7 @@ import {
   uploadAi,
   threads,
   performanceimdb,
+  akcitthumbnail,
 } from "../assets";
 
 export const navLinks = [
@@ -146,6 +147,20 @@ const experiences = [
       "Noções de metodologias ágeis, como Scrum e Kanban.",
     ],
   },
+  {
+    title: "Bolsista (Desenvolvedor Web)",
+    company_name: "AKCIT - CEIA - UFG",
+    icon: ufg,
+    iconBg: "#E6DEDD",
+    date: "Maio 2024 - Atualmente",
+    points: [
+      "AKCIT, Centro de Competência EMBRAPII em Tecnologias Imersivas (Advanced Knowledge Center for Immersive Technologies).",
+      "O AKCIT está associado ao Centro de Excelência em Inteligência Artificial (CEIA), que é a maior referência latino americana para Inteligência Artificial (IA) e a Unidade Embrapii com melhor nota de avaliação as empresas.",
+      "O CEIA é o pioneiro na formação de recursos humanos no tema de IA, atingindo a marca de R$ 200 milhões investidos com empresas de variados segmentos e possui mais de 60 projetos de inovação executados.",
+      "O AKCIT é o primeiro grupo de pesquisa da América Latina reconhecido pela NVIDIA Inc. no programa 'AI Nations', que destaca grupos de pesquisa que impulsionam o ecossistema de IA global.",
+      "Sou responsável pelo desenvolvimento e manutenção de toda o site do AKCIT",
+    ],
+  },
 ] as Models.Experience[];
 
 // const testimonials = [
@@ -176,6 +191,35 @@ const experiences = [
 // ] as Models.Testimonial[];
 
 const projects = [
+  {
+    name: "AKCIT",
+    description:
+      "Site completo do AKCIT (Advanced Knowledge Center for Immersive Technologies).",
+    tags: [
+      {
+        name: "typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "nextjs14",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "webvitals",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "chadcn/ui",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: akcitthumbnail,
+    web_link: "https://akcit.ufg.br",
+  },
   {
     name: "Performance Web IMDB",
     description:

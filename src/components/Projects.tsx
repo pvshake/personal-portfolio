@@ -27,16 +27,20 @@ const ProjectCard: FC<ProjectCardProps> = ({ project }) => {
               className="w-full h-full object-cover rounded-2xl"
             />
             <div className="absolute inset-0 flex flex-row justify-end m-3 gap-2 card-img_hover">
-              <div
-                onClick={() => window.open(project.source_code_link, "_blank")}
-                className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-              >
-                <Image
-                  src={github}
-                  alt="github"
-                  className="w-1/2 h-1/2 object-contain hover:scale-150 transition-all ease-in-out duration-200"
-                />
-              </div>
+              {project.source_code_link && (
+                <div
+                  onClick={() =>
+                    window.open(project.source_code_link, "_blank")
+                  }
+                  className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+                >
+                  <Image
+                    src={github}
+                    alt="github"
+                    className="w-1/2 h-1/2 object-contain hover:scale-150 transition-all ease-in-out duration-200"
+                  />
+                </div>
+              )}
               {project.web_link && (
                 <div
                   onClick={() => window.open(project.web_link, "_blank")}
